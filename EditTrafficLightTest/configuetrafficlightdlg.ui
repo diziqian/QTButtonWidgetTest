@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigueTrafficLightDlg</class>
+ <widget class="QDialog" name="ConfigueTrafficLightDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_Configure">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>581</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+   </property>
+   <column>
+    <property name="text">
+     <string>列1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>列2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>列3</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>列4</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
